@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cjy01"
+    android:installLocation="auto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.cjy01.ViewFlipperActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name="com.example.cjy01.ToolbarCustomActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.cjy01.ToolbarActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity android:name="com.example.cjy01.TabThirdActivity" />
+        <activity android:name="com.example.cjy01.TabSecondActivity" />
+        <activity
+            android:name="com.example.cjy01.TabHostActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.cjy01.TabGroupActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.cjy01.TabFragmentActivity"
+            android:exported="true" />
+        <activity android:name="com.example.cjy01.TabFirstActivity" />
+        <activity
+            android:name="com.example.cjy01.TabLayoutActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.cjy01.TabCustomActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.cjy01.TabButtonActivity"
+            android:exported="true" />
+        <activity android:name="com.example.cjy01.SwipeRefreshActivity" />
+        <activity android:name="com.example.cjy01.SwipeRecyclerActivity" />
+        <activity
+            android:name="com.example.cjy01.SearchViewActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.cjy01.SearchResultActvity"
+            android:theme="@style/AppCompatTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name="com.example.cjy01.RecyclerStaggeredActivity" />
+        <activity android:name="com.example.cjy01.RecyclerLinearActivity" />
+        <activity android:name="com.example.cjy01.RecyclerGridActivity" />
+        <activity android:name="com.example.cjy01.RecyclerDynamicActivity" />
+        <activity android:name="com.example.cjy01.RecyclerCombineActivity" />
+        <activity
+            android:name="com.example.cjy01.OverflowMenuActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.cjy01.BannerTopActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.cjy01.BannerPagerActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity
+            android:name="com.example.cjy01.BannerIndicatorActivity"
+            android:exported="true"
+            android:theme="@style/AppCompatTheme" />
+        <activity android:name="com.example.cjy01.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
